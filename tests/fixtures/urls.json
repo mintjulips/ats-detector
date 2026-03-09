@@ -1,0 +1,316 @@
+{
+  "version": 1,
+  "updatedAt": "2026-03-09",
+  "notes": [
+    "Corpus uses live public URLs verified in March 2026.",
+    "Keep both board-level and job-level URLs because ATS detectors often fail on one but not the other.",
+    "expectedAts should match your signature library name exactly."
+  ],
+  "cases": [
+    {
+      "url": "https://workday.wd5.myworkdayjobs.com/Workday",
+      "expectedAts": "Workday Recruiting",
+      "expectedConfidence": "high",
+      "type": "board",
+      "source": "live"
+    },
+    {
+      "url": "https://imf.wd5.myworkdayjobs.com/IMF",
+      "expectedAts": "Workday Recruiting",
+      "expectedConfidence": "high",
+      "type": "board",
+      "source": "live"
+    },
+    {
+      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite",
+      "expectedAts": "Workday Recruiting",
+      "expectedConfidence": "high",
+      "type": "board",
+      "source": "live"
+    },
+    {
+      "url": "https://workiva.wd503.myworkdayjobs.com/careers",
+      "expectedAts": "Workday Recruiting",
+      "expectedConfidence": "high",
+      "type": "board",
+      "source": "live"
+    },
+
+    {
+      "url": "https://boards.greenhouse.io/kaseya/jobs/5808309004",
+      "expectedAts": "Greenhouse",
+      "expectedConfidence": "high",
+      "type": "job",
+      "source": "live"
+    },
+    {
+      "url": "https://job-boards.greenhouse.io/greenhouse/jobs/7485730",
+      "expectedAts": "Greenhouse",
+      "expectedConfidence": "high",
+      "type": "job",
+      "source": "live"
+    },
+    {
+      "url": "https://job-boards.greenhouse.io/figma",
+      "expectedAts": "Greenhouse",
+      "expectedConfidence": "high",
+      "type": "board",
+      "source": "live"
+    },
+    {
+      "url": "https://job-boards.greenhouse.io/cloudflare/jobs/5879768?gh_jid=5879768",
+      "expectedAts": "Greenhouse",
+      "expectedConfidence": "high",
+      "type": "job",
+      "source": "live"
+    },
+
+    {
+      "url": "https://jobs.lever.co/brightonjones",
+      "expectedAts": "Lever",
+      "expectedConfidence": "high",
+      "type": "board",
+      "source": "live"
+    },
+    {
+      "url": "https://jobs.lever.co/vevo",
+      "expectedAts": "Lever",
+      "expectedConfidence": "high",
+      "type": "board",
+      "source": "live"
+    },
+    {
+      "url": "https://jobs.lever.co/futureof-life/73c8fb44-1dd8-4ef6-bf16-170e5ee065bd",
+      "expectedAts": "Lever",
+      "expectedConfidence": "high",
+      "type": "job",
+      "source": "live"
+    },
+    {
+      "url": "https://jobs.lever.co/vevo/7fb5ed83-747a-46fd-a4ef-e50ee0512630/apply?source=LinkedIn",
+      "expectedAts": "Lever",
+      "expectedConfidence": "high",
+      "type": "apply",
+      "source": "live"
+    },
+
+    {
+      "url": "https://jobs.smartrecruiters.com/",
+      "expectedAts": "SmartRecruiters",
+      "expectedConfidence": "high",
+      "type": "board",
+      "source": "live"
+    },
+    {
+      "url": "https://jobs.smartrecruiters.com/NBCUniversal3/744000112246140-training-intern-dreamworks-animation-summer-2026",
+      "expectedAts": "SmartRecruiters",
+      "expectedConfidence": "high",
+      "type": "job",
+      "source": "live"
+    },
+    {
+      "url": "https://jobs.smartrecruiters.com/CERN/744000103064566-early-career-professionals-technical-field-spontaneous-applications",
+      "expectedAts": "SmartRecruiters",
+      "expectedConfidence": "high",
+      "type": "job",
+      "source": "live"
+    },
+    {
+      "url": "https://jobs.smartrecruiters.com/Versant3/744000112891402",
+      "expectedAts": "SmartRecruiters",
+      "expectedConfidence": "high",
+      "type": "job",
+      "source": "live"
+    },
+
+    {
+      "url": "https://jobs.ashbyhq.com/zip/19f459ee-4907-4883-9d70-35eb96f62082/application",
+      "expectedAts": "Ashby",
+      "expectedConfidence": "high",
+      "type": "apply",
+      "source": "live"
+    },
+    {
+      "url": "https://jobs.ashbyhq.com/patreon",
+      "expectedAts": "Ashby",
+      "expectedConfidence": "high",
+      "type": "board",
+      "source": "live"
+    },
+    {
+      "url": "https://jobs.ashbyhq.com/replit",
+      "expectedAts": "Ashby",
+      "expectedConfidence": "high",
+      "type": "board",
+      "source": "live"
+    },
+    {
+      "url": "https://jobs.ashbyhq.com/column/c349d594-33a2-49a2-a168-afa8d8226572",
+      "expectedAts": "Ashby",
+      "expectedConfidence": "high",
+      "type": "job",
+      "source": "live"
+    },
+
+    {
+      "url": "https://jobs.jobvite.com/evergreenhealth/jobs/alljobs",
+      "expectedAts": "Jobvite",
+      "expectedConfidence": "high",
+      "type": "board",
+      "source": "live"
+    },
+    {
+      "url": "https://jobs.jobvite.com/cristaministries/jobs",
+      "expectedAts": "Jobvite",
+      "expectedConfidence": "high",
+      "type": "board",
+      "source": "live"
+    },
+    {
+      "url": "https://jobs.jobvite.com/pioneerhumanservices",
+      "expectedAts": "Jobvite",
+      "expectedConfidence": "high",
+      "type": "board",
+      "source": "live"
+    },
+    {
+      "url": "https://jobs.jobvite.com/evergreenhealth/job/ojPHzfw8",
+      "expectedAts": "Jobvite",
+      "expectedConfidence": "high",
+      "type": "job",
+      "source": "live"
+    },
+
+    {
+      "url": "https://theconfigteamcareers.recruitee.com/o/register-your-interest-graduate-jobs-for-2026-cohort",
+      "expectedAts": "Recruitee",
+      "expectedConfidence": "high",
+      "type": "job",
+      "source": "live"
+    },
+    {
+      "url": "https://iliabeauty.recruitee.com/",
+      "expectedAts": "Recruitee",
+      "expectedConfidence": "high",
+      "type": "board",
+      "source": "live"
+    },
+    {
+      "url": "https://trackman.recruitee.com/o/trackman-baseball-data-operations-seasonal-employee",
+      "expectedAts": "Recruitee",
+      "expectedConfidence": "high",
+      "type": "job",
+      "source": "live"
+    },
+    {
+      "url": "https://virtualresource.recruitee.com/",
+      "expectedAts": "Recruitee",
+      "expectedConfidence": "high",
+      "type": "board",
+      "source": "live"
+    },
+
+    {
+      "url": "https://beli.breezy.hr/",
+      "expectedAts": "Breezy HR",
+      "expectedConfidence": "high",
+      "type": "board",
+      "source": "live"
+    },
+    {
+      "url": "https://tidalpartners.breezy.hr/p/3c0c807be67b-2026-summer-mba-associate",
+      "expectedAts": "Breezy HR",
+      "expectedConfidence": "high",
+      "type": "job",
+      "source": "live"
+    },
+    {
+      "url": "https://bitdeer.breezy.hr/",
+      "expectedAts": "Breezy HR",
+      "expectedConfidence": "high",
+      "type": "board",
+      "source": "live"
+    },
+    {
+      "url": "https://matroid.breezy.hr/",
+      "expectedAts": "Breezy HR",
+      "expectedConfidence": "high",
+      "type": "board",
+      "source": "live"
+    },
+
+    {
+      "url": "https://wevote.jazz.co/",
+      "expectedAts": "JazzHR",
+      "expectedConfidence": "high",
+      "type": "board",
+      "source": "live"
+    },
+    {
+      "url": "https://jpr.jazz.co/",
+      "expectedAts": "JazzHR",
+      "expectedConfidence": "high",
+      "type": "board",
+      "source": "live"
+    },
+    {
+      "url": "https://newamerica.jazz.co/",
+      "expectedAts": "JazzHR",
+      "expectedConfidence": "high",
+      "type": "board",
+      "source": "live"
+    },
+    {
+      "url": "https://app.jazz.co/apply/job/H07Phhz58G?gh_src=fa1195541us&source=LINK",
+      "expectedAts": "JazzHR",
+      "expectedConfidence": "high",
+      "type": "apply",
+      "source": "live"
+    },
+
+    {
+      "url": "https://www.bamboohr.com/careers/",
+      "expectedAts": "BambooHR",
+      "expectedConfidence": "medium",
+      "type": "board",
+      "source": "live"
+    },
+    {
+      "url": "https://www.bamboohr.com/careers/application",
+      "expectedAts": "BambooHR",
+      "expectedConfidence": "medium",
+      "type": "apply",
+      "source": "live"
+    },
+
+    {
+      "url": "https://www.comeet.co/jobs/zim/72.008",
+      "expectedAts": "Comeet",
+      "expectedConfidence": "high",
+      "type": "job",
+      "source": "live"
+    },
+    {
+      "url": "https://www.comeet.co/jobs/g70/F2.00B/project-manager---civil/F1.70E",
+      "expectedAts": "Comeet",
+      "expectedConfidence": "high",
+      "type": "job",
+      "source": "live"
+    },
+
+    {
+      "url": "https://example.com/careers/software-engineer",
+      "expectedAts": "Unknown",
+      "expectedConfidence": "low",
+      "type": "negative-control",
+      "source": "synthetic"
+    },
+    {
+      "url": "https://example.org/jobs/apply",
+      "expectedAts": "Unknown",
+      "expectedConfidence": "low",
+      "type": "negative-control",
+      "source": "synthetic"
+    }
+  ]
+}
