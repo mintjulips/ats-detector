@@ -1,0 +1,211 @@
+[
+  {
+    "name": "Workday Recruiting",
+    "vendor": "Workday",
+    "match": {
+      "hostContains": ["myworkdayjobs.com", "wd5.myworkdayjobs.com", "wd3.myworkdayjobs.com"],
+      "scriptContains": ["wdc.wd5.myworkdayjobs.com"],
+      "htmlContains": ["Workday Recruiting"],
+      "pathContains": ["/job/", "/en-US/"]
+    },
+    "confidence": "high"
+  },
+  {
+    "name": "Oracle Taleo",
+    "vendor": "Oracle",
+    "match": {
+      "hostContains": ["taleo.net"],
+      "scriptContains": ["taleo"],
+      "htmlContains": ["Taleo Recruiting"],
+      "pathContains": ["/careersection", "/jobdetail"]
+    },
+    "confidence": "high"
+  },
+  {
+    "name": "Oracle Recruiting Cloud",
+    "vendor": "Oracle",
+    "match": {
+      "hostContains": ["oraclecloud.com"],
+      "scriptContains": ["oraclecloud"],
+      "htmlContains": ["Oracle Recruiting Cloud"],
+      "pathContains": ["/hcmUI", "/candidateExperience"]
+    },
+    "confidence": "medium"
+  },
+  {
+    "name": "SAP SuccessFactors Recruiting",
+    "vendor": "SAP",
+    "match": {
+      "hostContains": ["successfactors.com"],
+      "scriptContains": ["successfactors"],
+      "htmlContains": ["SuccessFactors Recruiting"],
+      "pathContains": ["/career", "/sfcareer"]
+    },
+    "confidence": "high"
+  },
+  {
+    "name": "IBM Kenexa BrassRing",
+    "vendor": "IBM",
+    "match": {
+      "hostContains": ["brassring.com", "kenexa.com"],
+      "scriptContains": ["brassring"],
+      "htmlContains": ["Kenexa BrassRing"],
+      "pathContains": ["/TGnewUI", "/Search/Home"]
+    },
+    "confidence": "high"
+  },
+  {
+    "name": "iCIMS",
+    "vendor": "iCIMS",
+    "match": {
+      "hostContains": ["icims.com"],
+      "scriptContains": ["icims"],
+      "htmlContains": ["iCIMS"],
+      "pathContains": ["/jobs/", "/careers/"]
+    },
+    "confidence": "high"
+  },
+  {
+    "name": "Avature",
+    "vendor": "Avature",
+    "match": {
+      "hostContains": ["avature.net"],
+      "scriptContains": ["avature"],
+      "htmlContains": ["Avature"],
+      "pathContains": ["/careers", "/job"]
+    },
+    "confidence": "medium"
+  },
+  {
+    "name": "SmartRecruiters",
+    "vendor": "SmartRecruiters",
+    "match": {
+      "hostContains": ["smartrecruiters.com"],
+      "scriptContains": ["smartrecruiters"],
+      "htmlContains": ["SmartRecruiters"],
+      "pathContains": ["/jobs/", "/careers/"]
+    },
+    "confidence": "high"
+  },
+  {
+    "name": "Greenhouse",
+    "vendor": "Greenhouse",
+    "match": {
+      "hostContains": ["greenhouse.io"],
+      "scriptContains": ["greenhouse"],
+      "htmlContains": ["Greenhouse Job Board"],
+      "pathContains": ["/jobs/", "/embed/job_app"]
+    },
+    "confidence": "high"
+  },
+  {
+    "name": "Lever",
+    "vendor": "Lever",
+    "match": {
+      "hostContains": ["lever.co"],
+      "scriptContains": ["lever"],
+      "htmlContains": ["Lever"],
+      "pathContains": ["/jobs/", "/apply"]
+    },
+    "confidence": "high"
+  },
+  {
+    "name": "Ashby",
+    "vendor": "Ashby",
+    "match": {
+      "hostContains": ["ashbyhq.com"],
+      "scriptContains": ["ashby"],
+      "htmlContains": ["Ashby"],
+      "pathContains": ["/jobs/", "/apply"]
+    },
+    "confidence": "high"
+  },
+  {
+    "name": "Jobvite",
+    "vendor": "Employ",
+    "match": {
+      "hostContains": ["jobvite.com"],
+      "scriptContains": ["jobvite"],
+      "htmlContains": ["Jobvite"],
+      "pathContains": ["/jobs/", "/careers"]
+    },
+    "confidence": "high"
+  },
+  {
+    "name": "BambooHR",
+    "vendor": "BambooHR",
+    "match": {
+      "hostContains": ["bamboohr.com"],
+      "scriptContains": ["bamboohr"],
+      "htmlContains": ["BambooHR"],
+      "pathContains": ["/jobs/", "/careers/"]
+    },
+    "confidence": "high"
+  },
+  {
+    "name": "Recruitee",
+    "vendor": "Recruitee",
+    "match": {
+      "hostContains": ["recruitee.com"],
+      "scriptContains": ["recruitee"],
+      "htmlContains": ["Recruitee"],
+      "pathContains": ["/o/", "/jobs/"]
+    },
+    "confidence": "high"
+  },
+  {
+    "name": "Teamtailor",
+    "vendor": "Teamtailor",
+    "match": {
+      "hostContains": ["teamtailor.com"],
+      "scriptContains": ["teamtailor"],
+      "htmlContains": ["Teamtailor"],
+      "pathContains": ["/jobs/", "/careers"]
+    },
+    "confidence": "high"
+  },
+  {
+    "name": "Comeet",
+    "vendor": "Comeet",
+    "match": {
+      "hostContains": ["comeet.co"],
+      "scriptContains": ["comeet"],
+      "htmlContains": ["Comeet"],
+      "pathContains": ["/jobs/", "/apply"]
+    },
+    "confidence": "medium"
+  },
+  {
+    "name": "Breezy HR",
+    "vendor": "Breezy HR",
+    "match": {
+      "hostContains": ["breezy.hr"],
+      "scriptContains": ["breezy"],
+      "htmlContains": ["Breezy HR"],
+      "pathContains": ["/p/", "/jobs"]
+    },
+    "confidence": "high"
+  },
+  {
+    "name": "JazzHR",
+    "vendor": "Employ",
+    "match": {
+      "hostContains": ["applytojob.com", "jazz.co"],
+      "scriptContains": ["jazz"],
+      "htmlContains": ["JazzHR"],
+      "pathContains": ["/apply/", "/jobs"]
+    },
+    "confidence": "medium"
+  },
+  {
+    "name": "Pinpoint",
+    "vendor": "Pinpoint",
+    "match": {
+      "hostContains": ["pinpointhq.com"],
+      "scriptContains": ["pinpointhq"],
+      "htmlContains": ["Pinpoint"],
+      "pathContains": ["/jobs/", "/careers"]
+    },
+    "confidence": "medium"
+  }
+]
